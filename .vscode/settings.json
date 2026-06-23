@@ -44,7 +44,7 @@
     ".github/instructions/jira": true,
     ".github/instructions/rai-planning": true,
     ".github/instructions/security": true,
-    ".github/instructions/shared": true
+    ".github/instructions/shared": true,
   },
   "chat.agentFilesLocations": {
     ".github/agents/accessibility": true,
@@ -63,7 +63,9 @@
     ".github/agents/project-planning/subagents": true,
     ".github/agents/rai-planning": true,
     ".github/agents/security": true,
-    ".github/agents/security/subagents": true
+    ".github/agents/security/subagents": true,
+    ".github/agents/ubs": true,
+    ".github/agents/ubs/subagents": true,
   },
   "chat.promptFilesLocations": {
     ".github/prompts/ado": true,
