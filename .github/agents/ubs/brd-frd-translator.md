@@ -1,6 +1,14 @@
 ---
 name: BRD-FRD Translator
 description: 'Translate high level business requirements documentation into functional requirements including features and details'
+tools: 
+  - read
+  - edit
+model:
+  - Claude Sonnet 4.6 (copilot)
+  - GPT-5.5 (copilot)
+  - Claude Haiku 4.5 (copilot)
+  - GPT-5 mini (copilot)
 handoffs:
   - label: "📋 Create Plan"
     agent: Task Planner
@@ -95,6 +103,21 @@ Research is complete when a dated file exists at `.copilot-tracking/research/{{Y
 * Evidence-linked, structured responses that present the selected approach and evaluated alternatives to users.
 
 Include `<!-- markdownlint-disable-file -->` at the top; `.copilot-tracking/**` files are exempt from `.mega-linter.yml` rules.
+
+## Required Steps
+
+### Step 1: Analyze Input
+
+Read the provided files and extract requirements.
+
+### Step 2: Generate Output
+
+Create the requested artifacts based on analysis.
+
+### Step 3: Validate
+
+Run validation commands and report results.
+
 
 ## Required Phases
 
